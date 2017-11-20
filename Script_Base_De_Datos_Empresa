@@ -1,0 +1,12 @@
+-- Database: Base_De_Datos_Empresa
+
+-- DROP DATABASE "Base_De_Datos_Empresa";
+
+CREATE DATABASE "Base_De_Datos_Empresa"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Spanish_Honduras.1252'
+    LC_CTYPE = 'Spanish_Honduras.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
